@@ -1,0 +1,72 @@
+body {
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+    float: right;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+nav a {
+	margin-left: 25px;
+	font-size: 25px;
+	color: aliceblue;
+}
+h1 {
+	align-content: center;
+}
+nav ul li {
+	list-style-type: none;
+	padding-left: 20px;
+	text-align: right;
+}
+header {
+	background-color: orange;
+}
+nav ul li a {
+	text-decoration: none;
+	color: aliceblue;
+}
+main {
+	align-content:center;
+}
+footer {
+	background-color: orange;
+}
+table {
+	width: 1000px;
+	border-collapse: collapse;
+	box-shadow: 0 5px 10px;
+	overflow: hidden;
+}
+table, form, button {
+	border-spacing: 30px;
+	padding-right: 20px;
+}
+th {
+	text-align: left;
+}
+table, th, td {
+	border-collapse: collapse;
+}
+th, td {
+	padding: 20px;
+	border-bottom: 1px;
+}
+th {
+	background-color: lightblue;
+}
+.status {
+	border: 1px solid;
+	border-radius: 10px;
+	background-color: red;
+	padding: 0.2rem 1rem;
+	text-align: center;
+}
+.status-paid {
+	background-color: springgreen;
+}
+.status-unpaid {
+	background-color: yellow;
+}
